@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>906329498083-orn2eksc8habcgjcsmg7ani580nvijcs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.906329498083-orn2eksc8habcgjcsmg7ani580nvijcs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCCtg8yn_xpWAF34TqgS8ERCaCLY4SIu1g</string>
+	<key>GCM_SENDER_ID</key>
+	<string>906329498083</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.loginFirebase</string>
+	<key>PROJECT_ID</key>
+	<string>login-firebase-93ca0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>login-firebase-93ca0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:906329498083:ios:b9d3adb224e3a300e980d6</string>
+	<key>DATABASE_URL</key>
+	<string>https://login-firebase-93ca0-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
