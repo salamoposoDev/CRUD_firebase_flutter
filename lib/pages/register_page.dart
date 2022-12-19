@@ -43,11 +43,11 @@ class _RegisterPageState extends State<RegisterPage> {
   // }
 
   Future signUp() async {
-    final uid = FirebaseAuth.instance.currentUser;
+    // final uid = FirebaseAuth.instance.currentUser;
     showDialog(
       context: context,
       builder: (index) {
-        return Center(
+        return const Center(
           child: CircularProgressIndicator(
             color: Colors.deepPurple,
           ),
@@ -67,6 +67,7 @@ class _RegisterPageState extends State<RegisterPage> {
         'age': _textAgeController.text,
         'password': _textPassController.text,
       });
+      // ignore: use_build_context_synchronously
       Navigator.of(context).pop();
       // registerUser(
       //   _textFullnameController.text.trim(),
@@ -132,6 +133,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: 'Full Name',
+                          // ignore: prefer_const_constructors
                           prefixIcon: Icon(
                             Icons.person,
                           ),
@@ -157,10 +159,10 @@ class _RegisterPageState extends State<RegisterPage> {
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Padding(
-                      padding: EdgeInsets.only(left: 0.0),
+                      padding: const EdgeInsets.only(left: 0.0),
                       child: TextField(
                         controller: _textAgeController,
-                        decoration: InputDecoration(
+                        decoration: const InputDecoration(
                             border: InputBorder.none,
                             hintText: 'Age',
                             prefixIcon: Icon(Icons.numbers)),
@@ -185,7 +187,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         decoration: InputDecoration(
                             border: InputBorder.none,
                             hintText: 'Email',
-                            prefixIcon: Icon(
+                            prefixIcon: const Icon(
                               Icons.email,
                             ),
                             suffixIcon: IconButton(
@@ -214,7 +216,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: 'Password',
-                          prefixIcon: Icon(
+                          prefixIcon: const Icon(
                             Icons.password,
                           ),
                           suffixIcon: IconButton(
@@ -243,7 +245,7 @@ class _RegisterPageState extends State<RegisterPage> {
                         decoration: InputDecoration(
                           border: InputBorder.none,
                           hintText: 'Confirm Password',
-                          prefixIcon: Icon(Icons.password),
+                          prefixIcon: const Icon(Icons.password),
                           suffixIcon: IconButton(
                             onPressed: () {},
                             icon: const Icon(Icons.visibility),

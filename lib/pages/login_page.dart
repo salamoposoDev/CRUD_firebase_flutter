@@ -35,6 +35,7 @@ class _LoginPageState extends State<LoginPage> {
     );
 
     // LOADING OFF
+    // ignore: use_build_context_synchronously
     Navigator.of(context).pop();
   }
 
